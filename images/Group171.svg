@@ -24,14 +24,14 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.0998546"
-     inkscape:cx="52.734243"
-     inkscape:cy="139.1093"
-     inkscape:window-width="2560"
-     inkscape:window-height="1319"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
+     inkscape:zoom="0.77771465"
+     inkscape:cx="586.97622"
+     inkscape:cy="234.019"
+     inkscape:window-width="1615"
+     inkscape:window-height="1201"
+     inkscape:window-x="1296"
+     inkscape:window-y="120"
+     inkscape:window-maximized="0"
      inkscape:current-layer="Group-171" />
   <defs
      id="defs2">
@@ -782,7 +782,7 @@
          fill="#006be4"
          mask="url(#mask-2)"
          points="66,198 66.109011,211 106.95328,211 107,198 "
-         style="fill:#002249;fill-opacity:1" />
+         style="fill:#cccccc;fill-opacity:1" />
       <polygon
          id="Fill-158"
          fill="#f5a5a9"
@@ -803,12 +803,13 @@
          fill="#006be4"
          mask="url(#mask-2)"
          points="89,204 84.55417,311 67.581536,311 66,204 "
-         style="fill:#001730;fill-opacity:1" />
+         style="fill:#cccccc;fill-opacity:1" />
       <polygon
          id="Fill-162"
          fill="#0458af"
          mask="url(#mask-2)"
-         points="65,305 84,305 83.72233,311 65,311 " />
+         points="65,305 84,305 83.72233,311 65,311 "
+         style="fill:#cccccc;fill-opacity:1" />
       <polygon
          id="Fill-163"
          fill="#f5a5a9"
@@ -829,18 +830,19 @@
          fill="#006be4"
          mask="url(#mask-2)"
          points="106,205 105.11418,311 88.142928,311 87,206.71398 "
-         style="fill:#001c3d;fill-opacity:1" />
+         style="fill:#cccccc;fill-opacity:1" />
       <polygon
          id="Fill-167"
          fill="#0458af"
          mask="url(#mask-2)"
          points="87.747624,271 87,211 93,211 "
-         style="fill:#011c38;fill-opacity:1" />
+         style="fill:#cccccc;fill-opacity:1" />
       <polygon
          id="Fill-168"
          fill="#0458af"
          mask="url(#mask-2)"
-         points="107,305 88,305 88.070322,311 107,311 " />
+         points="107,305 88,305 88.070322,311 107,311 "
+         style="fill:#cccccc;fill-opacity:1" />
     </g>
   </g>
 </svg>
