@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="vendors/aos/css/aos.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
 </head>
 
 <style>
@@ -32,6 +35,18 @@
         transition: all 0.7s ease-in-out;
     }
 </style>
+
+
+<script>
+    import rive from "@rive-app/canvas";
+
+    new rive.Rive({
+        // Hosted .riv asset, or a local static asset
+        src: "./images/desenvolve-class.riv",
+        canvas: document.getElementById("canvas"),
+        autoplay: true,
+    });
+</script>
 
 <body id="body" data-spy="scroll" data-target=".navbar" data-offset="100" style="overflow-x: hidden;">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -120,26 +135,26 @@
             <section class="digital-marketing-service " id="sobre">
                 <div class="row align-items-center ">
                     <div class="col-12 col-lg-7 grid-margin grid-margin-lg-0 " data-aos="fade-right ">
-                        <h3 class="m-0 ">Pautada em sólida vocação e experiência docente,
+                        <h3 class="m-0 ">
+                            <a style="font-family: 'Secular One', sans-serif; font-size: 64px; color: grey;" ">“</a> Pautada em sólida vocação e experiência docente,
                         </h3>
-                        <div class="col-lg-7 col-xl-6 p-0 ">
+                        <div class=" col-lg-7 col-xl-6 p-0 ">
                             <i>
-                                <p class="py-4 m-0 text ">a <b style="color: #750A62;">Desenvolve
-                                        Tutoria Educacional</b>
-                                    oferta um método singular de apoio acadêmico, marcado pela <i>leveza</i> na gestão das dificuldades enfrentadas pelo estudante, conduzindo-o a <i>explorar</i> suas competências com foco no
-                            <i>aprendizado eficaz</i>.
+                                <p class=" py-5 m-0 col-12 text-xl-center; " style=" font-size: 18px; text-align: center; ">a <b style=" color: #750A62; ">Desenvolve
+                                    Tutoria Educacional</b> oferta um método singular de apoio acadêmico, marcado pela <i>leveza</i> na gestão das dificuldades enfrentadas pelo estudante, conduzindo-o a <i>explorar</i> suas competências com foco no
+                            <i>aprendizado eficaz" </i>.
                             </p>
                             <!-- <p class="font-weight-medium text-muted ">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer</p>-->
                             </i>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0 " data-aos="fade-left ">
-                        <img src="images/undraw_education_f8ru.svg " alt=" " class="img-fluid ">
                     </div>
                 </div>
-                </br>
-                </br>
-                <!-- <div class="row align-items-center ">
+                <div class="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0 " data-aos="fade-left ">
+                    <img src="images/undraw_education_f8ru.svg " alt=" " class="img-fluid ">
+                </div>
+        </div>
+        </br>
+        </br>
+        <!-- <div class="row align-items-center ">
                     <div class="col-12 col-lg-7 text-center flex-item grid-margin " data-aos="fade-right "><img src="images/Group2.png " alt=" " class="img-fluid "></div>
                     <div class="col-12 col-lg-5 flex-item grid-margin " data-aos="fade-left ">
                         <h3 class="m-0 ">Leading Digital Agency<br>for Business Solution.</h3>
@@ -149,206 +164,206 @@
                         </div><button class="btn btn-info ">Readmore</button>
                     </div>
         </div>-->
-            </section>
-            <section class="case-studies " id="nucleos">
+        </section>
+        <section class="case-studies " id="nucleos">
 
-                <div class="row grid-margin ">
-                    <div class="col-12 text-center pb-5 ">
-                        <h2>Nossos núcleos</h2>
-                        <h6 class="section-subtitle text-muted ">Visite um de nossos núcleos e surpreenda-se</h6>
-                    </div>
-                    <div class="row">
+            <div class="row grid-margin ">
+                <div class="col-12 text-center pb-5 ">
+                    <h2>Nossos núcleos</h2>
+                    <h6 class="section-subtitle text-muted ">Visite um de nossos núcleos e surpreenda-se</h6>
+                </div>
+                <div class="row">
 
-                        <div class="card col">
+                    <div class="card col">
 
-                            <!-- <div class="card"><img src="./images/nucleo-centro.jpg" height="350" class="card-img-top" alt="..."> -->
+                        <!-- <div class="card"><img src="./images/nucleo-centro.jpg" height="350" class="card-img-top" alt="..."> -->
 
-                            <div id="carouselCentro" class="card carousel slide carousel-fade" style="border: solid; border-color: #F1B131; border-radius: 25px;" data-bs-ride="carousel">
-                                <!-- <div class="carousel-indicators">
+                        <div id="carouselCentro" class="card carousel slide carousel-fade" style="border: solid; border-color: #F1B131; border-radius: 25px;" data-bs-ride="carousel">
+                            <!-- <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                 </div> -->
-                                <div class="carousel-inner">
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/1.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/2.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/3.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/4.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item active">
-                                        <img src="./images/carousel/5.png" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/6.png" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/7.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/8.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/9.png" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/10.png" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/11.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/12.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/13.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/14.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/15.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/16.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/18.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/19.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/20.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/21.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-
+                            <div class="carousel-inner">
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/1.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
                                 </div>
-                                <button class="carousel-control-prev" style="background-color: transparent; border: none;" type="button" data-bs-target="#carouselCentro" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden"></span>
-                                </button>
-                                <button class="carousel-control-next" style="background-color: transparent; border: none;" type="button" data-bs-target="#carouselCentro" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden"></span>
-                                </button>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/2.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/3.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/4.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="./images/carousel/5.png" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/6.png" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/7.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/8.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/9.png" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/10.png" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/11.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/12.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/13.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/14.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/15.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/16.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/18.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/19.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/20.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/21.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+
                             </div>
-
-
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="bi bi-geo-alt" style="color: black;"></i> Núcleo
-                                    <div class="display-4">Mogi Centro </div>
-                                </h5>
-                                <br>
-                                <h5> Av. Fausta Duarte de Araújo, 312</h5>
-                                <p class="card-text">No coração da cidade, próximo ao Shopping Patteo Urupema e dos colégios Brasilis, Gutenberg, Adventista, Leão de Judá, Marechal Rondon e Alma Mater. O espaço oferece estacionamento gratuito.
-
-
-                                </p>
-                            </div>
+                            <button class="carousel-control-prev" style="background-color: transparent; border: none;" type="button" data-bs-target="#carouselCentro" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden"></span>
+                            </button>
+                            <button class="carousel-control-next" style="background-color: transparent; border: none;" type="button" data-bs-target="#carouselCentro" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden"></span>
+                            </button>
                         </div>
 
-                        <div class="card col">
+
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-geo-alt" style="color: black;"></i> Núcleo
+                                <div class="display-4">Mogi Centro </div>
+                            </h5>
+                            <br>
+                            <h5> Av. Fausta Duarte de Araújo, 312</h5>
+                            <p class="card-text">No coração da cidade, próximo ao Shopping Patteo Urupema e dos colégios Brasilis, Gutenberg, Adventista, Leão de Judá, Marechal Rondon e Alma Mater. O espaço oferece estacionamento gratuito.
 
 
-                            <div id="carouselVlOliveira" class="card carousel slide carousel-fade" data-bs-ride="carousel" style="border: solid; border-color: #F1B131; border-radius: 25px;">
-                                <!-- <div class="carousel-indicators">
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card col">
+
+
+                        <div id="carouselVlOliveira" class="card carousel slide carousel-fade" data-bs-ride="carousel" style="border: solid; border-color: #F1B131; border-radius: 25px;">
+                            <!-- <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                 </div> -->
-                                <div class="carousel-inner">
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/17.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/15.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/13.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/11.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item active">
-                                        <img src="./images/carousel/9.png" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/7.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/5.png" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/3.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/1.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/21.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/20.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/18.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/16.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/14.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/12.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/10.png" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/8.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/6.png" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/4.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/carousel/2.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
-                                    </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/17.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
                                 </div>
-                                <button class="carousel-control-prev" style="background-color: transparent; border: none;" type="button" data-bs-target="#carouselVlOliveira" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden"></span>
-                                </button>
-                                <button class="carousel-control-next" style="background-color: transparent; border: none;" type="button" data-bs-target="#carouselVlOliveira" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden"></span>
-                                </button>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/15.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/13.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/11.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="./images/carousel/9.png" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/7.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/5.png" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/3.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/1.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/21.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/20.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/18.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/16.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/14.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/12.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/10.png" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/8.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/6.png" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/4.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel/2.jpg" style="object-fit: cover;  border-radius: 25px;" width="350" height="350" class="d-block w-100" alt="...">
+                                </div>
                             </div>
+                            <button class="carousel-control-prev" style="background-color: transparent; border: none;" type="button" data-bs-target="#carouselVlOliveira" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden"></span>
+                            </button>
+                            <button class="carousel-control-next" style="background-color: transparent; border: none;" type="button" data-bs-target="#carouselVlOliveira" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden"></span>
+                            </button>
+                        </div>
 
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="bi bi-geo-alt" style="color: black;"></i> Núcleo
-                                    <div class="display-4">Vila Oliveira </div>
-                                </h5>
-                                <br>
-                                <h5> R. Cruzeiro do Sul, 331</h5>
-                                <p class="card-text">De fácil acesso, próximo ao Mogi Shopping e dos colégios São Marcos, NEIB, Maple Bear, Mello Dante, Saber e IENEC. Ambiente multidisciplinar e harmonioso que favorece o foco e a concentração.
-                                </p>
-                            </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-geo-alt" style="color: black;"></i> Núcleo
+                                <div class="display-4">Vila Oliveira </div>
+                            </h5>
+                            <br>
+                            <h5> R. Cruzeiro do Sul, 331</h5>
+                            <p class="card-text">De fácil acesso, próximo ao Mogi Shopping e dos colégios São Marcos, NEIB, Maple Bear, Mello Dante, Saber e IENEC. Ambiente multidisciplinar e harmonioso que favorece o foco e a concentração.
+                            </p>
                         </div>
                     </div>
-                    <!-- <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0 " data-aos="zoom-in ">
+                </div>
+                <!-- <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0 " data-aos="zoom-in ">
                     <div class="card color-cards ">
                         <div class="card-body p-0 ">
                             <div class="bg-primary text-center card-contents ">
@@ -386,7 +401,7 @@
                         </div>
                     </div>
                 </div>-->
-                    <!-- <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0 " data-aos="zoom-in " data-aos-delay="400 ">
+                <!-- <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0 " data-aos="zoom-in " data-aos-delay="400 ">
                     <div class="card color-cards ">
                         <div class="card-body p-0 ">
                             <div class="bg-violet text-center card-contents ">
@@ -425,85 +440,104 @@
             </div>
         </div>
     </div>-->
+            </div>
+
+        </section>
+
+        <section class="digital-marketing-service " id="class">
+            <div class="row align-items-center ">
+                <div class="col-12 col-lg-6 p-0 img-digital grid-margin grid-margin-lg-0 " data-aos="fade-left ">
+                    <!-- <div>
+                        <canvas id="canvas"></canvas>
+                    </div> -->
+                    <img src="./images/undraw_gift_box_re_vau4.svg" alt="CLASS" class="img-fluid ">
                 </div>
+                <div class="col-12 col-lg-6 grid-margin grid-margin-lg-8 text-right " data-aos="fade-right ">
+                    <h3 class="m-0 ">Desenvolve <b><i>CLASS</i></b>
+                    </h3>
+                    <div class="text-justify">
 
-            </section>
+                        </br>
+                        No <i>Desenvolve <b>CLASS</i></b> o aluno conta com a melhor experiência de tutoria a distância. Aulas
+                        <i> online</i> que levam a<i> class </i> até sua casa. </br> Além do acompanhamento dedicado, recebe uma box exclusiva com orientação de leituras, exercícios direcionados e, claro, sempre um mimo especial, tudo sob nossa singular
+                        curadoria pedagógica. </br> Experimente as vantagens de uma classe
+                        <!-- <p class="font-weight-medium text-muted ">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer</p>-->
+                        </br>
+                        </br>
 
-            <section class="digital-marketing-service " id="class">
-                <div class="row align-items-center ">
-                    <div class="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0 " data-aos="fade-left ">
-                        <img src="./images/undraw_gift_box_re_vau4.svg" alt="CLASS" class="img-fluid ">
-                    </div>
-                    <div class="col-12 col-lg-7 grid-margin grid-margin-lg-8 text-right " data-aos="fade-right ">
-                        <h3 class="m-0 ">Desenvolve <i>CLASS</i>
-                        </h3>
-                        <div class="text-right">
-                            <i>
-                                </br>
-                                Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuerLorem ipsum
-                                dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer
-                                <!-- <p class="font-weight-medium text-muted ">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer</p>-->
-                            </i>
-                            <div data-aos="fade-up"><a href="https://api.whatsapp.com/send?phone=5511973486000" class="btn btn-rounded btn-outline-primary">Eu quero!</a>
-                            </div>
-                        </div>
-                    </div>
-                    </br>
-                    </br>
-                    <!-- <div class="row align-items-center ">
-                    <div class="col-12 col-lg-7 text-center flex-item grid-margin " data-aos="fade-right "><img src="images/Group2.png " alt=" " class="img-fluid "></div>
-                    <div class="col-12 col-lg-5 flex-item grid-margin " data-aos="fade-left ">
-                        <h3 class="m-0 ">Leading Digital Agency<br>for Business Solution.</h3>
-                        <div class="col-lg-9 col-xl-8 p-0 ">
-                            <p class="py-4 m-0 text-muted ">Power-packed with impressive features and well-optimized, this template is designed to provide the best performance in all circumstances.</p>
-                            <p class="pb-2 font-weight-medium text-muted ">Its smart features make it a powerful stand-alone website building tool.</p>
-                        </div><button class="btn btn-info ">Readmore</button>
-                    </div>
-        </div>-->
-            </section>
-
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-
-            </br>
-            <!-- <div class="row align-items-center ">
-                    <div class="col-12 col-lg-7 text-center flex-item grid-margin " data-aos="fade-right "><img src="images/Group2.png " alt=" " class="img-fluid "></div>
-                    <div class="col-12 col-lg-5 flex-item grid-margin " data-aos="fade-left ">
-                        <h3 class="m-0 ">Leading Digital Agency<br>for Business Solution.</h3>
-                        <div class="col-lg-9 col-xl-8 p-0 ">
-                            <p class="py-4 m-0 text-muted ">Power-packed with impressive features and well-optimized, this template is designed to provide the best performance in all circumstances.</p>
-                            <p class="pb-2 font-weight-medium text-muted ">Its smart features make it a powerful stand-alone website building tool.</p>
-                        </div><button class="btn btn-info ">Readmore</button>
-                    </div>
-        </div>-->
-
-
-
-
-            <section class="customer-feedback " id="depoimentos">
-                <div class="row ">
-                    <div class="col-12 text-center pb-5 ">
-                        <h2>Depoimentos</h2>
-                        <h6 class="section-subtitle text-muted m-0 ">O que dizem os pais de nossos alunos </h6>
-                    </div>
-                    <div class="owl-carousel owl-theme grid-margin ">
-                        <div class="card customer-cards ">
-                            <div class="card-body ">
-                                <div class="text-center "><img src="https://desenvolvetutoria.com.br/wp-content/uploads/2020/03/WhatsApp-Image-2020-03-10-at-3.45.35-PM-e1584037916806.jpeg " width="89 " height="89 " alt=" " class="img-customer ">
-                                    </br>
-                                    <p class="m-0 py-0 text-muted ">"Tina, uma mulher e professora que cativou com seu sorriso largo meu filho Daniel. Suas aulas sempre animadas e lúdicas. Ele que não gostava de matemática😁, hoje adora e fala que será professor de matemática rsss.
-                                        Não reclama de ir e sempre sai com um sorrisão. Com suas aulas, ele evoluiu muito e tira notas altas. Aqui, como mãe, fica meu agradecimento especial à evolução do Daniel.”</p>
-                                    </br>
-                                    <div class="content-divider m-auto"></div>
-                                    <h6 class="card-title pt-3">Cíntia Possancini</h6>
-                                    <h6 class="customer-designation text-muted m-0">Mãe do Daniel</h6>
+                        <div class="col" data-aos="fade-up ">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="https://api.whatsapp.com/send?phone=5511973486000 " class="btn btn-rounded btn-outline-primary ">Eu quero!</a>
                                 </div>
+                                <div class="col">
+                                    <img src="./images/undraw_learning_sketching_nd4f.svg" alt="CLASS" class="img-fluid ">
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                </br>
+                </br>
+                <!-- <div class="row align-items-center ">
+                    <div class="col-12 col-lg-7 text-center flex-item grid-margin " data-aos="fade-right "><img src="images/Group2.png " alt=" " class="img-fluid "></div>
+                    <div class="col-12 col-lg-5 flex-item grid-margin " data-aos="fade-left ">
+                        <h3 class="m-0 ">Leading Digital Agency<br>for Business Solution.</h3>
+                        <div class="col-lg-9 col-xl-8 p-0 ">
+                            <p class="py-4 m-0 text-muted ">Power-packed with impressive features and well-optimized, this template is designed to provide the best performance in all circumstances.</p>
+                            <p class="pb-2 font-weight-medium text-muted ">Its smart features make it a powerful stand-alone website building tool.</p>
+                        </div><button class="btn btn-info ">Readmore</button>
+                    </div>
+        </div>-->
+        </section>
+
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+
+        </br>
+        <!-- <div class="row align-items-center ">
+                    <div class="col-12 col-lg-7 text-center flex-item grid-margin " data-aos="fade-right "><img src="images/Group2.png " alt=" " class="img-fluid "></div>
+                    <div class="col-12 col-lg-5 flex-item grid-margin " data-aos="fade-left ">
+                        <h3 class="m-0 ">Leading Digital Agency<br>for Business Solution.</h3>
+                        <div class="col-lg-9 col-xl-8 p-0 ">
+                            <p class="py-4 m-0 text-muted ">Power-packed with impressive features and well-optimized, this template is designed to provide the best performance in all circumstances.</p>
+                            <p class="pb-2 font-weight-medium text-muted ">Its smart features make it a powerful stand-alone website building tool.</p>
+                        </div><button class="btn btn-info ">Readmore</button>
+                    </div>
+        </div>-->
+
+
+
+
+        <section class="customer-feedback " id="depoimentos ">
+            <div class="row ">
+                <div class="col-12 text-center pb-5 ">
+                    <h2>Depoimentos</h2>
+                    <h6 class="section-subtitle text-muted m-0 ">O que dizem os pais de nossos alunos </h6>
+                </div>
+                <div class="owl-carousel owl-theme grid-margin ">
+                    <div class="card customer-cards ">
+                        <div class="card-body ">
+                            <div class="text-center "><img src="https://desenvolvetutoria.com.br/wp-content/uploads/2020/03/WhatsApp-Image-2020-03-10-at-3.45.35-PM-e1584037916806.jpeg " width="89 " height="89 " alt=" " class="img-customer ">
+                                </br>
+                                <p class="m-0 py-0 text-muted ">"Tina, uma mulher e professora que cativou com seu sorriso largo meu filho Daniel. Suas aulas sempre animadas e lúdicas. Ele que não gostava de matemática😁, hoje adora e fala que será professor de matemática rsss. Não
+                                    reclama de ir e sempre sai com um sorrisão. Com suas aulas, ele evoluiu muito e tira notas altas. Aqui, como mãe, fica meu agradecimento especial à evolução do Daniel.”
+                                </p>
+                                </br>
+                                <div class="content-divider m-auto"></div>
+                                <h6 class="card-title pt-3">Cíntia Possancini</h6>
+                                <h6 class="customer-designation text-muted m-0">Mãe do Daniel</h6>
                             </div>
                         </div>
-                        <!-- <div class="card customer-cards">
+                    </div>
+                    <!-- <div class="card customer-cards">
                     <div class="card-body">
                         <div class="text-center"><img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
                             <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.
@@ -525,7 +559,7 @@
                     </div>
                 </div>
             </div>-->
-                        <!-- <div class="card customer-cards">
+                    <!-- <div class="card customer-cards">
                 <div class="card-body">
                     <div class="text-center"><img src="images/face15.jpg" width="89" height="89" alt="" class="img-customer">
                         <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.
@@ -547,88 +581,87 @@
                 </div>
             </div>
         </div>-->
-                        <div class="card customer-cards">
-                            <div class="card-body">
-                                <div class="text-center"><img src="./images/WhatsApp-Image-2020-03-10-at-3.47.50-PM.jpeg" " width=" 100 " height=" 100 " alt=" " class=" img-customer ">
+                    <div class="card customer-cards">
+                        <div class="card-body">
+                            <div class="text-center"><img src="./images/WhatsApp-Image-2020-03-10-at-3.47.50-PM.jpeg" " width=" 100 " height=" 100 " alt=" " class=" img-customer ">
                                     <p class=" m-0 py-3 text-muted ">" Suas aulas são envolventes, traz o foco para a necessidade do aluno e compartilha seu Feedback com os pais de forma clara e frequente. Hoje vemos claramente o valor de seu trabalho,
-                                        é uma construção lenta, mas fundamental. O desempenho escolar do meu filho foi excelente o ano todo. Obrigada por tudo Tina🙏🏻”. </p>
-                                    <div class="content-divider m-auto"></div>
-                                    <h6 class="card-title pt-3">Patrícia Pelegrin
-                                        <h6>
-                                            <h6 class="customer-designation text-muted m-0">Mãe do Leonardo</h6>
-                                </div>
+                                    é uma construção lenta, mas fundamental. O desempenho escolar do meu filho foi excelente o ano todo. Obrigada por tudo Tina🙏🏻”. </p>
+                                <div class="content-divider m-auto"></div>
+                                <h6 class="card-title pt-3">Patrícia Pelegrin
+                                    <h6>
+                                        <h6 class="customer-designation text-muted m-0">Mãe do Leonardo</h6>
                             </div>
                         </div>
-                        <div class="card customer-cards">
-                            <div class="card-body">
-                                <div class="text-center"><img src="https://desenvolvetutoria.com.br/wp-content/uploads/2020/03/WhatsApp-Image-2020-03-10-at-3.50.41-PM.jpeg" width="89" height="89" alt="" class="img-customer">
-                                    <p class="m-0 py-3 text-muted">"As aulas de reforço de Matemática foram o diferencial para que o João Vitor desenvolvesse a confiança e o entendimento nas atividades. Gratidão Tina por todo apoio.”
-                                    </p>
-                                    <div class="content-divider m-auto"></div>
-                                    <h6 class="card-title pt-3">Elaine Hardt
-                                        <h6>
-                                            <h6 class="customer-designation text-muted m-0">Mãe do João Vitor</h6>
-                                </div>
+                    </div>
+                    <div class="card customer-cards">
+                        <div class="card-body">
+                            <div class="text-center"><img src="https://desenvolvetutoria.com.br/wp-content/uploads/2020/03/WhatsApp-Image-2020-03-10-at-3.50.41-PM.jpeg" width="89" height="89" alt="" class="img-customer">
+                                <p class="m-0 py-3 text-muted">"As aulas de reforço de Matemática foram o diferencial para que o João Vitor desenvolvesse a confiança e o entendimento nas atividades. Gratidão Tina por todo apoio.”
+                                </p>
+                                <div class="content-divider m-auto"></div>
+                                <h6 class="card-title pt-3">Elaine Hardt
+                                    <h6>
+                                        <h6 class="customer-designation text-muted m-0">Mãe do João Vitor</h6>
                             </div>
                         </div>
+                    </div>
 
 
-                        <div class="card customer-cards">
-                            <div class="card-body">
-                                <div class="text-center">
-                                    <i class="bi-person-circle" style="font-size: 5rem; color: #750A6222;"></i>
-                                    <p class="m-0 py-3 text-muted">"Aulas diferenciadas com excelentes profissionais, muito satisfeita com a Desenvolve Mogi Centro"
-                                    </p>
-                                    <div class="content-divider m-auto"></div>
-                                    <h6 class="card-title pt-3">Roseli Camargo
-                                        <h6>
-                                            <h6 class="customer-designation text-muted m-0"></h6>
-                                </div>
+                    <div class="card customer-cards">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <i class="bi-person-circle" style="font-size: 5rem; color: #750A6222;"></i>
+                                <p class="m-0 py-3 text-muted">"Aulas diferenciadas com excelentes profissionais, muito satisfeita com a Desenvolve Mogi Centro"
+                                </p>
+                                <div class="content-divider m-auto"></div>
+                                <h6 class="card-title pt-3">Roseli Camargo
+                                    <h6>
+                                        <h6 class="customer-designation text-muted m-0"></h6>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="card customer-cards">
-                            <div class="card-body">
-                                <div class="text-center"> <i class="bi-person-circle" style="font-size: 5rem; color: #750A6222;"></i>
+                    <div class="card customer-cards">
+                        <div class="card-body">
+                            <div class="text-center"> <i class="bi-person-circle" style="font-size: 5rem; color: #750A6222;"></i>
 
-                                    <p class="m-0 py-3 text-muted">"As aulas são maravilhosas! A minha filha foi desenvolvida educacionalmente por essa pessoa maravilhosa! Hoje minha filha é super segura e sabe se desenvolver sozinha! Agora estamos amando as aulas de Espanhol!"
-                                    </p>
-                                    <div class="content-divider m-auto"></div>
-                                    <h6 class="card-title pt-3">Suzana Boucinhas
-                                        <h6>
-                                            <h6 class="customer-designation text-muted m-0">Mãe da Maria</h6>
-                                </div>
+                                <p class="m-0 py-3 text-muted">"As aulas são maravilhosas! A minha filha foi desenvolvida educacionalmente por essa pessoa maravilhosa! Hoje minha filha é super segura e sabe se desenvolver sozinha! Agora estamos amando as aulas de Espanhol!"
+                                </p>
+                                <div class="content-divider m-auto"></div>
+                                <h6 class="card-title pt-3">Suzana Boucinhas
+                                    <h6>
+                                        <h6 class="customer-designation text-muted m-0">Mãe da Maria</h6>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="card customer-cards">
-                            <div class="card-body">
-                                <div class="text-center"> <i class="bi-person-circle" style="font-size: 5rem; color: #750A6222;"></i>
+                    <div class="card customer-cards">
+                        <div class="card-body">
+                            <div class="text-center"> <i class="bi-person-circle" style="font-size: 5rem; color: #750A6222;"></i>
 
-                                    <p class="m-0 py-3 text-muted">"Experiência incrível! Meu filho não gosta de escola e apresenta dificuldade em interagir com os professores. Com a professora Tina, desde o primeiro dia ele gostou, comentou e está indo super bem! Apenas GRATIDÃO!!!
-                                        🙏🏻🙏🏻❤️❤️"
-                                    </p>
-                                    <div class="content-divider m-auto"></div>
-                                    <h6 class="card-title pt-3">Cristiana Petreca
-                                        <h6>
-                                            <h6 class="customer-designation text-muted m-0">Mãe do Pedro</h6>
-                                </div>
+                                <p class="m-0 py-3 text-muted">"Experiência incrível! Meu filho não gosta de escola e apresenta dificuldade em interagir com os professores. Com a professora Tina, desde o primeiro dia ele gostou, comentou e está indo super bem! Apenas GRATIDÃO!!! 🙏🏻🙏🏻❤️❤️"
+                                </p>
+                                <div class="content-divider m-auto"></div>
+                                <h6 class="card-title pt-3">Cristiana Petreca
+                                    <h6>
+                                        <h6 class="customer-designation text-muted m-0">Mãe do Pedro</h6>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="card customer-cards">
-                            <div class="card-body">
-                                <div class="text-center"><img src="./images/55963774_324010524830723_7271533297467916288_n.jpg" width="89" height="89" alt="" class="img-customer">
-                                    <p class="m-0 py-3 text-muted">"O apoio dessa equipe de professores competentes tem sido fundamental no preparo para os vestibulares que nossa filha está prestando... estamos adorando!!!!"
-                                    </p>
-                                    <div class="content-divider m-auto"></div>
-                                    <h6 class="card-title pt-3">Margareth Gonçalves
-                                        <h6>
-                                            <h6 class="customer-designation text-muted m-0">Mãe da Maria Eugênia</h6>
-                                </div>
+                    <div class="card customer-cards">
+                        <div class="card-body">
+                            <div class="text-center"><img src="./images/55963774_324010524830723_7271533297467916288_n.jpg" width="89" height="89" alt="" class="img-customer">
+                                <p class="m-0 py-3 text-muted">"O apoio dessa equipe de professores competentes tem sido fundamental no preparo para os vestibulares que nossa filha está prestando... estamos adorando!!!!"
+                                </p>
+                                <div class="content-divider m-auto"></div>
+                                <h6 class="card-title pt-3">Margareth Gonçalves
+                                    <h6>
+                                        <h6 class="customer-designation text-muted m-0">Mãe da Maria Eugênia</h6>
                             </div>
                         </div>
-                        <!-- <div class="card customer-cards">
+                    </div>
+                    <!-- <div class="card customer-cards">
             <div class="card-body">
                 <div class="text-center"><img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
                     <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.
@@ -660,58 +693,58 @@
                         <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
                     </div>
                 </div>-->
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="contact-us" id="contact-section">
+            <div class="contact-us-bgimage grid-margin">
+                <div class="pb-4">
+                    <h4 class="px-3 px-md-0 m-0" data-aos="fade-down">Ainda ficou com alguma dúvida?</h4>
+                    <h4 class="pt-1" data-aos="fade-down">Fale conosco</h4>
+                </div>
+                <div data-aos="fade-up"><a href="https://api.whatsapp.com/send?phone=5511973486000" class="btn btn-rounded btn-outline-primary">Estamos online</a>
+                </div>
+            </div>
+        </section>
+        <section class="contact-details" id="contact-details-section">
+            <div class="row text-body">
+                <div class="col-12 col-md-6 col-lg-3 grid-margin-lg-0 ">
+                    <div class="pt-1">
                     </div>
                 </div>
+                <div class="col-12 col-md-6 col-lg-3 grid-margin-lg-0 "><img src="https://desenvolvetutoria.com.br/wp-content/uploads/2021/03/logo-2048x529.png" width="230" alt="" class="">
+                    <div class="pt-2">
+                        <p class="text-muted m-0">desenvolvetutoria@gmail.com</p>
+                        <p class="text-muted m-0">(11) 97348-6000</p>
+                    </div>
+                    </br>
+                    <div class="d-flex justify-content-center justify-content-md-start"><a href="#"><span
+                            class="mdi mdi-facebook"></span></a>
+                        <!-- <a href="#"><span class="mdi mdi-twitter"></span></a>--><a href="#"><span
+                            class="mdi mdi-instagram"></span></a>
+                        <!-- <a href="#"><span class="mdi mdi-linkedin"></span></a>-->
+                    </div>
                 </div>
-            </section>
-            <section class="contact-us" id="contact-section">
-                <div class="contact-us-bgimage grid-margin">
-                    <div class="pb-4">
-                        <h4 class="px-3 px-md-0 m-0" data-aos="fade-down">Ainda ficou com alguma dúvida?</h4>
-                        <h4 class="pt-1" data-aos="fade-down">Fale conosco</h4>
-                    </div>
-                    <div data-aos="fade-up"><a href="https://api.whatsapp.com/send?phone=5511973486000" class="btn btn-rounded btn-outline-primary">Estamos online</a>
-                    </div>
+                <div class="col-12 col-md-6 col-lg-3 grid-margin">
+                    <h5 class="pb-2">Fique por dentro</h5>
+                    <p class="text-muted">Receba nossas notícias e novidades sempre </p>
+                    <form><input type="text" class="form-control" id="Email" placeholder="E-mail"></form>
+                    <div class="pt-3"><button class="btn btn-dark">Inscrever-se</button></div>
                 </div>
-            </section>
-            <section class="contact-details" id="contact-details-section">
-                <div class="row text-body">
-                    <div class="col-12 col-md-6 col-lg-3 grid-margin-lg-0 ">
-                        <div class="pt-1">
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3 grid-margin-lg-0 "><img src="https://desenvolvetutoria.com.br/wp-content/uploads/2021/03/logo-2048x529.png" width="230" alt="" class="">
-                        <div class="pt-2">
-                            <p class="text-muted m-0">desenvolvetutoria@gmail.com</p>
-                            <p class="text-muted m-0">(11) 97348-6000</p>
-                        </div>
-                        </br>
-                        <div class="d-flex justify-content-center justify-content-md-start"><a href="#"><span
-                                class="mdi mdi-facebook"></span></a>
-                            <!-- <a href="#"><span class="mdi mdi-twitter"></span></a>--><a href="#"><span
-                                class="mdi mdi-instagram"></span></a>
-                            <!-- <a href="#"><span class="mdi mdi-linkedin"></span></a>-->
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3 grid-margin">
-                        <h5 class="pb-2">Fique por dentro</h5>
-                        <p class="text-muted">Receba nossas notícias e novidades sempre </p>
-                        <form><input type="text" class="form-control" id="Email" placeholder="E-mail"></form>
-                        <div class="pt-3"><button class="btn btn-dark">Inscrever-se</button></div>
-                    </div>
 
-                    <div class="col-12 col-md-6 col-lg-3 grid-margin">
-                        <h5 class="pb-2">Faça parte dessa ideia</h5>
-                        <p class="text">Seja um tutor</p>
-                        <p class="text-muted">Sendo um tutor
-                        </p>
-                        <p class="text">Seja um franqueado</p>
-                        <p class="text-muted">Franqueando-se
-                        </p>
+                <div class="col-12 col-md-6 col-lg-3 grid-margin">
+                    <h5 class="pb-2">Faça parte dessa ideia</h5>
+                    <p class="text">Seja um tutor</p>
+                    <p class="text-muted">Sendo um tutor
+                    </p>
+                    <p class="text">Seja um franqueado</p>
+                    <p class="text-muted">Franqueando-se
+                    </p>
 
-                    </div>
                 </div>
-            </section>
+            </div>
+        </section>
 </body>
 <footer class="border-top">
     <p class="text-center text-muted pt-4">Copyright © 2022<a href="https://www.desenvolvetutoria.com.br/" class="px-1">Desenvolve Tutoria Educacional</a>Todos os direitos reservados.</p>
@@ -736,6 +769,8 @@
     </div>
 </div>
 </div> -->
+
+
 
 <script src="vendors/jquery/jquery.min.js"></script>
 <script src="vendors/bootstrap/bootstrap.min.js"></script>
